@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8EB"
+    tools:context=".view.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="158dp"
+        android:layout_height="204dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rEditTextSurname"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/register" />
+
+    <EditText
+        android:id="@+id/rEditTextName"
+        android:layout_width="168dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#5C5757"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/rEditTextSurname"
+        android:layout_width="168dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Surname"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#5C5757"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rEditTextName" />
+
+    <EditText
+        android:id="@+id/rEditTextEdad"
+        android:layout_width="168dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="#5C5757"
+        app:layout_constraintStart_toStartOf="@+id/rEditTextSurname"
+        app:layout_constraintTop_toBottomOf="@+id/rEditTextSurname" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="168dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="24dp"
+        app:endIconMode="password_toggle"
+        app:hintTextColor="#FF3E3A3A"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/rEditTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F8F8EB"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHint="#5C5757" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/rEditTextEmailAddress"
+        android:layout_width="167dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="#5C5757"
+        app:layout_constraintStart_toStartOf="@+id/rEditTextEdad"
+        app:layout_constraintTop_toBottomOf="@+id/rEditTextEdad" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="#070707"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCancel"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#070707"
+        android:text="Cancel"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

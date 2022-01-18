@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/countryAdapter"
+    android:elevation="15dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:padding="0.5dp">
+
+        <ImageView
+            android:id="@+id/rAimageView"
+            android:layout_width="190dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="179dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="center"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-360dp"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rAtextViewCountryName"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:hint="Name"
+                android:textColor="#ED6A5A"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/rAtextViewLabelSubRegion"
+                android:layout_width="84dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="-10dp"
+                android:text="Subregion:"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/rAtextViewSubRegion"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="85dp"
+                android:layout_marginTop="-30dp"
+                android:hint="Subregion"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/rAtextViewLabelRegion4"
+                android:layout_width="84dp"
+                android:layout_height="30dp"
+                android:text="Population:"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/rAtextViewPopulation"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="85dp"
+                android:layout_marginTop="-30dp"
+                android:hint="Population"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

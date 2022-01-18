@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8EB"
+    tools:context=".view.ViewUserActivity">
+
+    <EditText
+        android:id="@+id/editTextSarchCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Search Country"
+        android:inputType="textPersonName"
+        android:textColorHint="#5C5757"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="43dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/ic_button_search"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/editTextSarchCountry"
+        app:layout_constraintTop_toTopOf="@+id/editTextSarchCountry" />
+
+    <Button
+        android:id="@+id/buttonAll"
+        android:layout_width="43dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/ic_restore"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/buttonSearch"
+        app:layout_constraintTop_toTopOf="@+id/buttonSearch" />
+
+    <Button
+        android:id="@+id/buttonSettings"
+        android:layout_width="43dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/ic_settings"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/buttonAll"
+        app:layout_constraintTop_toTopOf="@+id/buttonAll" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCountry"
+        android:layout_width="407dp"
+        android:layout_height="605dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:padding="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextSarchCountry" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/recyclerViewCountry"
+        app:layout_constraintEnd_toEndOf="@+id/recyclerViewCountry"
+        app:layout_constraintStart_toStartOf="@+id/recyclerViewCountry"
+        app:layout_constraintTop_toTopOf="@+id/recyclerViewCountry" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

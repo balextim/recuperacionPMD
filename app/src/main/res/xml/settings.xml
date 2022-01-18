@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#F8F8EB">
+    <PreferenceCategory android:title="About us">
+        <Preference
+            android:summary="This application will help you to know the basic information of a country that you need."
+            android:title="Information"></Preference>
+        <Preference
+            android:summary="Breyner Alexander"
+            android:title="Developed by"></Preference>
+        <Preference
+            android:key="exit"
+            android:title="Exit"></Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

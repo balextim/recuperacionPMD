@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/breyn/AndroidStudioProjects/dicionario/app/src/main/res/layout/activity_data_country.xml" value="0.3832599118942731" />
+        <entry key="..\:/Users/breyn/AndroidStudioProjects/dicionario/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/breyn/AndroidStudioProjects/dicionario/app/src/main/res/layout/activity_main.xml" value="0.12092391304347826" />
+        <entry key="..\:/Users/breyn/AndroidStudioProjects/dicionario/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/breyn/AndroidStudioProjects/dicionario/app/src/main/res/layout/activity_settings.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/breyn/AndroidStudioProjects/dicionario/app/src/main/res/layout/activity_view_user.xml" value="0.22" />
+        <entry key="..\:/Users/breyn/AndroidStudioProjects/dicionario/app/src/main/res/layout/activity_view_users.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/breyn/AndroidStudioProjects/dicionario/app/src/main/res/layout/recycler_adapter.xml" value="0.5" />
+        <entry key="..\:/Users/breyn/AndroidStudioProjects/dicionario/app/src/main/res/menu/menu.xml" value="0.225" />
+        <entry key="..\:/Users/breyn/AndroidStudioProjects/dicionario/app/src/main/res/mipmap-anydpi-v26/ic_icono.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/breyn/AndroidStudioProjects/dicionario/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1265625" />
+        <entry key="..\:/Users/breyn/AndroidStudioProjects/dicionario/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1265625" />
+        <entry key="..\:/Users/breyn/AndroidStudioProjects/dicionario/app/src/main/res/xml/settings.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
